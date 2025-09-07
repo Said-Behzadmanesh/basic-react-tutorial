@@ -1,0 +1,42 @@
+.form {
+  background-color: #6233b9;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #eadbfb;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.15rem;
+  border: 1px solid #e6ddf9;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #eadbfb;
+  color: #593884;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  background-color: #a990fb;
+  color: #f3f2f7;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
